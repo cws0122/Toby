@@ -20,5 +20,6 @@ public class Main {
         vo = dao.get("singnanda");
         System.out.println("#######################################");
         System.out.println("vo = " + vo.toString());
+        //테스트하나둘
     }
 }
