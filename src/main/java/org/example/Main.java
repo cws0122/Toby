@@ -13,13 +13,12 @@ public class Main {
         // IntelliJ IDEA의 수정 제안을 볼 수 있습니다.
         UserDAO dao = new UserDAO();
         UserVO vo = new UserVO();
-        vo.setId("Test");
-        vo.setName("테스트용");
+        vo.setId("Test2");
+        vo.setName("테스트용2");
         vo.setPassword("1234");
 //        dao.add(vo);
         vo = dao.get("singnanda");
         System.out.println("#######################################");
         System.out.println("vo = " + vo.toString());
-        //테스트하나둘
     }
 }
